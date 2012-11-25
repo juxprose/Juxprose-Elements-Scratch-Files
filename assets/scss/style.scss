@@ -1,0 +1,175 @@
+/*==============================================================
+
+Juxprose Elements
+Created: 24/11/2012
+Updated: 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Description: 
+Version: 
+Author: David Flindall
+Author URI: http://juxprose.com
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Content
+----------------------------
+
+#Primary elements
+#Header
+#Primary Content
+#Secondary Content
+#Footer
+#Links
+#Clearfix
+
+#Extra's: Common Design Elements
+
+==============================================================*/
+
+
+
+/* Primary elements
+=========================================================================================*/
+
+body{
+	font: 100%/1.6 Helvetica, Arial, sans-serif;
+} 
+
+
+/* Header
+=========================================================================================*/
+
+#wrap {
+	
+}
+
+header[role="banner"] {
+    
+}
+
+nav[role="navigation"] {
+	
+}
+
+	nav {
+		ul {
+			list-style: none;
+		}
+	}
+
+
+/* Primary Content
+=========================================================================================*/
+
+section[role="main"] {
+   
+}
+
+
+/* Secondary Content
+=========================================================================================*/
+
+aside[role="complimentary"] {
+   
+}
+
+
+/* Footer
+=========================================================================================*/
+
+footer[role="contentinfo"] {
+   
+}
+
+
+/* Links
+=========================================================================================*/
+
+a {
+  color: #000;
+  &:hover { color: #666; }
+  &:visited { color: #000; }
+}
+
+
+
+/* Clearfix
+------------------------------------------------------------------------------------------
+
+-Using Chris Coyer's technqiue: http://css-tricks.com/snippets/css/clear-fix/
+-Incuding support for IE6/7
+
+=========================================================================================*/
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+
+
+/* Extra's: Common Design Elements
+=========================================================================================
+
+Border 
+---------------------- 
+
+.foo {
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+Box Shadow
+---------------------- 
+
+.foo {
+	-webkit-box-shadow:  0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+	box-shadow:  0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+ Text Shadow
+----------------------
+
+.foo {
+	text-shadow: 0px 1px 2px #000;
+}
+
+ RGBA Text
+---------------------- 
+
+.foo {
+	color: #fff;
+	color: rgba(255, 255, 255, 1);
+}
+
+ RGBA Background
+---------------------- 
+
+.foo {
+	background-color: #fff;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+ Transitions
+---------------------- 
+
+.foo {
+	background: #000;
+	-webkit-transition: all 0.3s ease 0.5s;
+	transition: all 0.3s ease 0.5s;
+	&:hover, &:focus {
+		background: #666;
+	}
+}
+
+*/
+
