@@ -23,14 +23,19 @@
 		<!-- CSS -->
 		<link rel="stylesheet" href="assets/css/normalize.css">
 		<link rel="stylesheet" href="assets/css/style.css">
+
+		<!-- IE CSS -->
 		<!--[if (gte IE 6)&(lte IE 9)]>
 			<link rel="stylesheet" href="assets/css/ie.css">
 		<![endif]-->
 
 		<!-- JS -->
-		<script src="assets/js/modernizer-2.6.2.js"></script>
-		<!--[if (gte IE 6)&(lte IE 8)]>
-			<script type="text/javascript" src="assets/js/selectivizr-min.js"></script>
+		<script type="text/javascript" src="//cdn.jsdelivr.net/modernizr/2.6.2/modernizr.min.js"></script>
+
+		<!-- IE JS -->
+		<!--[if (gte IE 6)&(lte IE 9)]>
+			<script type="text/javascript" src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+			<script type="text/javascript" src="//cdn.jsdelivr.net/css3-mediaqueries/0.1/css3-mediaqueries.min.js"></script>
 		<![endif]-->
 
     <!-- GOOGLE ANALYTICS -->
@@ -72,9 +77,9 @@
 				<small>&#169; </small>
 			</footer>
 			
-			<!-- jQuery from Google's CDN + local fallback -->
-			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	    <script>window.jQuery || document.write('<script src="assets/js/jquery-1.8.3.min.js"><\/script>')</script>
+			<!-- jQuery -->
+			<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+			<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	    
 	    <!-- SCRIPTS -->
 	    <script type="text/javascript" src="assets/js/scripts.js"></script>
